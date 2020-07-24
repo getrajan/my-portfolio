@@ -1,0 +1,101 @@
+/* @import font from fonts.css */
+@import url(./font.css);
+
+/* css variables */
+@import url(../partials/_varialbles.css);
+
+/* import global styling */
+@import url(../partials/_global.css);
+
+/* Navigation styling */
+ 
+
+.navbar-brand{
+    padding: 0 2rem 0.5rem;
+}
+
+.navbar{
+    padding: 0.3rem 10rem;    
+}
+
+.nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    /* font-family: var(--roboto); */
+    text-transform: uppercase;
+    /* font-weight: 500; */
+    padding: 2rem;
+    color:var(--title-color);
+}
+
+.active a{
+    background-color: blue;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font: normal bold 15px/2px var(--roboto);
+}
+
+.nav-item a:hover{
+    background-color: blue;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font: normal bold 15px/2px var(--roboto);
+}
+
+/* End navbar styling */
+
+/* satart banner styling */
+.site-main{
+    margin-top: 30rm;
+}
+
+.site-title h3{
+    padding-top: 50%;
+    font-weight: 500;
+}
+.site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-title h1{
+    font-size: 5rem;
+}
+.site-title h4{
+    font-size: 1.5rem;
+}
+
+.banner-image > img{
+    padding:7rem 0;
+    width: 90rem;
+}
+
+
+
+/* End banner styling */
+
+/* start about styling */
+.about-area{
+    padding: 10rem 5rem;
+    align-content: center;
+}
+.about{
+    text-align: center;
+    color: blue;
+}
+.about-title h2 > span{
+display: block;
+font: normal bold 49px/60px var(--roboto);
+letter-spacing: 15px;
+}
+
+.paragraph > p{
+    padding: 0.5rem 0;
+}
+/* end about styling */

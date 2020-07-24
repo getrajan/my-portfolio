@@ -1,0 +1,25 @@
+html,body{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+}
+
+/* CSS variables */
+:root{
+    --primary-color:#4458dc;
+    --primary-color1:#854fee;
+    --title-color:#141313;
+    --text-color:#777777;
+    --border-clor:#201f1f17;
+    --gradient-color:radial-gradient(90deg,#1f33b3 0% #854fee 100%);
+    --shadow-color:0px 10px 30px rgba(118,85,225,0.3);
+    --box-shadow:0px 10px 30px rgba(57,56,61,0,205);
+
+    /* font family variable */
+    --oswald:'Oswald';
+    --roboto:'Roboto';
+    --lobster:'Lobster';
+
+}
