@@ -2,10 +2,10 @@
 @import url(./font.css);
 
 /* css variables */
-@import url(../partials/_varialbles.css);
+@import url(../partials/variables.css);
 
 /* import global styling */
-@import url(../partials/_global.css);
+@import url(../partials/global.css);
 
 /* Navigation styling */
  
