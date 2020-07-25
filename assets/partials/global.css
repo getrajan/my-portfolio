@@ -63,7 +63,7 @@
 
 p.para{
     color: var(--text-color);
-    font: normal 500 20px var(--roboto);
+    font: normal 500 18px var(--oswald);
 }
 
 .section-header{
@@ -75,4 +75,10 @@ p.para{
 /* row and title section gap */
 .row{
     margin-top: 3rem;
+}
+
+/* For every area  */
+.global-area{
+    padding: 5rem 2.5rem;
+    align-content: center;
 }

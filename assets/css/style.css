@@ -81,27 +81,19 @@
 /* End banner styling */
 
 /* start about styling */
-.about-area{
-    padding: 10rem 5rem;
-    align-content: center;
-}
 
 .about-title h2 > span{
 display: block;
-font: normal bold 49px/60px var(--roboto);
-letter-spacing: 15px;
+font: normal bold 39px/50px var(--roboto);
+letter-spacing: 12px;
 }
-
 .paragraph > p{
-    padding: 0.5rem 0;
+    padding: 0;
 }
 /* end about styling */
 
 /* Start skills styling */
-.skill-area{
-    padding: 10rem 5rem;
-    align-content: center;
-}
+
 h3.pr-skill{
     font: normal 500 30px/40px var(--roboto);
 }
@@ -165,3 +157,68 @@ h3.pr-skill{
     transform: translate(-50%, -50%);
 }
 /* End skills styling */
+
+/* Start work styling */
+/* .work-area{
+    padding: 10rem 5rem;
+    align-content: center;
+} */
+.work-image{
+    border-radius: .5rem;
+    margin: .5rem;
+}
+/* End work styling */
+
+/* start contact stlying */
+.contact-form{
+    width: 360px;
+    margin: 0rem auto;
+}
+.contact-container{
+    justify-content: space-between;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+}
+.contact-input{
+  width: 100%;
+  font: normal 500 20px;
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1.5px solid var(--primary-color);
+  outline: thin;
+  margin-bottom: 2rem;
+}
+.contact-button{
+  display: block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+/* End contact styling */
+
+/* start footer styling */
+.footer{
+    text-align: center;
+    background-color:var(--footer-color);
+    padding-bottom: 2rem;
+}
+.footer-title{
+    font: normal 500 23px/30px var(--lobster);
+    color: whitesmoke;
+    padding: 1rem;
+}
+.footer-social{
+}
+.social-icon{
+    margin-right: 1rem;
+    font-size: 25px;
+    color:whitesmoke ;
+}
+#copy-right{
+    color: gray;
+    padding: .5rem;
+    font: normal 20px/23px var(--oswald);
+}
+/* End footer styling */
