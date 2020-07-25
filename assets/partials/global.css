@@ -10,10 +10,11 @@
 
 /* hr line */
 .hr-line{
-    height: 3px;
-    color: blue;
-    background-color: blue;
-    width: 10%;
+    height: 2px;
+    background-color: #2979ff;
+    width: 8%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Buttons */
@@ -63,4 +64,15 @@
 p.para{
     color: var(--text-color);
     font: normal 500 20px var(--roboto);
+}
+
+.section-header{
+    text-align: center;
+    color: #2979ff;
+    font: normal bold 20px var(--roboto);
+}
+
+/* row and title section gap */
+.row{
+    margin-top: 3rem;
 }

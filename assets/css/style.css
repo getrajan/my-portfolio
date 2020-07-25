@@ -85,10 +85,7 @@
     padding: 10rem 5rem;
     align-content: center;
 }
-.about{
-    text-align: center;
-    color: blue;
-}
+
 .about-title h2 > span{
 display: block;
 font: normal bold 49px/60px var(--roboto);
@@ -99,3 +96,72 @@ letter-spacing: 15px;
     padding: 0.5rem 0;
 }
 /* end about styling */
+
+/* Start skills styling */
+.skill-area{
+    padding: 10rem 5rem;
+    align-content: center;
+}
+h3.pr-skill{
+    font: normal 500 30px/40px var(--roboto);
+}
+
+.skills-data{
+     display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: var(--roboto);
+  padding: .5rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .5rem;
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+.skill-names{
+    display: block;
+    align-items: center;
+    font: normal 500 20px/23px var(--lobster);
+}
+
+.skill-bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: -10;
+}
+
+.android-skill{
+    width: 85%;
+}
+.flutter-skill{
+    width: 80%;
+}
+.javascript-skill{
+    width: 75%;
+}
+.python-skill{
+    width: 75%;
+}
+.uxui-skill{
+    width: 65%;
+}
+.video-skill{
+    width: 70%;
+}
+.firebase-skill{
+    width: 80%;
+}
+.skills-image{
+    
+}
+.skill-image{
+    border-radius: .5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* End skills styling */
