@@ -20,7 +20,7 @@
 <body>
     <!--  HOME SECTION -->
     <!-- Start header -->
-    <header class="header_area">
+    <header class="header_area" id="home">
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
                 <a class="navbar-brand" href="#">Guman</a>
@@ -33,19 +33,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link scroll-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link scroll-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link scroll-link" href="#skill">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Works</a>
+                            <a class="nav-link scroll-link" href="#works">Works</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link scroll-link" href="#contact">Contact</a>
                         </li>
                 </div>
             </nav>
@@ -61,9 +61,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 site-title">
-                        <h3 class="title-text">Hey</h3>
-                        <h1 class="title-text text-uppercase">I am Rajan</h1>
-                        <h4 class="title-text text-uppercase">Android Developer</h4>
+                        <div class="title">
+                            <h3 class="title-text">Hey</h3>
+                            <h1 class="title-text text-uppercase">I am Rajan</h1>
+                            <h4>
+                                <span>Android Developer</span>
+                                <span id="and-sign">&</span>
+                                <span>Flutter Developer</span>
+                            </h4>
+                        </div>
                         <div class="site-button">
                             <div class="d-flex flex-row flex-wrap">
                                 <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire
@@ -84,10 +90,10 @@
     <!-- end main area -->
 
     <!-- ABOUT SECTION -->
-    <section class="about-area global-area">
+    <section class="about-area global-area" id="about">
         <div class="container-fluid">
             <h2 class="section-header text-uppercase">About</h2>
-            <hr class="hr-line">
+                    <hr class="hr-line">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <img src="assets/img/Profile.png" alt="about image" class="img-fluid about-image">
@@ -100,15 +106,13 @@
                     </h2>
                     <div class="paragraph py-4 w-75">
                         <p class="para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus harum velit odio quam
-                            assumenda fugit unde cumque sunt ducimus magni.
+                            I am Android/Flutter Developer. I have obtain a bachelor degree of Computer
+                            Engineering from Pokhara University under NCIT.
                         </p>
                         <p class="para">
-                            t is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its
-                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-                            letters, as opposed to using
-                            'Content here, content here', making it look like readable English.
+                            I'm eager to learn new things in specific fields and having honesty is my
+                            quality from all. For a comprehensive list of my work, please refer my work page. If you are
+                            interested with me for cooperation, do not hesitate to contact me.
                         </p>
                     </div>
                     <button class="btn button primary-button text-uppercase">Download cv</button>
@@ -119,8 +123,8 @@
     <!-- End about section -->
 
     <!--START SKILLS SECTION -->
-    <section class="skill-area global-area">
-        <div class="container-fluid">
+    <section class="skill-area global-area" id="skill">
+        <div class="container">
             <h2 class="section-header text-uppercase">Skills</h2>
             <hr class="hr-line">
             <div class="row">
@@ -205,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 skills_image">
+                <div class="col-lg-6 col-md-12 skills-image">
                     <img src="assets/img/work6.jpg" alt="skill-image" class="skill-image img-fluid">
                 </div>
             </div>
@@ -215,37 +219,37 @@
     <!-- END SKILLS SECTION -->
 
     <!--START WORKS SECTION -->
-    <section class="work-area global-area">
-        <div class="container-fluid">
+    <section class="work-area global-area" id="works">
+        <div class="container">
             <h2 class="section-header text-uppercase">Works</h2>
             <hr class="hr-line">
             <div class="row">
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="work-images">
                         <img src="assets/img/work1.jpg" alt="work1" class="img-fluid work-image">
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="work-images">
                         <img src="assets/img/work2.jpg" alt="work2" class="img-fluid work-image">
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4  col-md-4 col-sm-12">
                     <div class="work-images">
                         <img src="assets/img/work3.jpg" alt="work3" class="img-fluid work-image">
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4  col-md-4 col-sm-12">
                     <div class="work-images">
                         <img src="assets/img/work4.jpg" alt="work4" class="img-fluid work-image">
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4  col-md-4 col-sm-12">
                     <div class="work-images">
                         <img src="assets/img/work5.jpg" alt="work5" class="img-fluid work-image">
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4  col-md-4 col-sm-12">
                     <div class="work-images">
                         <img src="assets/img/work6.jpg" alt="work6" class="img-fluid work-image">
                     </div>
@@ -256,22 +260,23 @@
     <!--END WORKS SECTION -->
 
     <!--START CONTACT SECTION -->
-    <section class="contact-area global-area">
+    <section class="contact-area global-area" id="contact">
         <div class="container-fluid">
             <h2 class="section-header text-uppercase">Contact</h2>
             <hr class="hr-line">
-           <div class="row">
-               <div class="col-md-12 sm-md-12">
+            <div class="row">
+                <div class="col-md-12 sm-md-12">
                     <div class="contact-container">
                         <form action="" class="contact-form">
                             <input type="text" class="contact-input" placeholder="Name">
                             <input type="text" class="contact-input" placeholder="Email">
                             <textarea name="" id="" cols="0" rows="10" class="contact-input"></textarea>
-                            <button class="btn secondary-button button contact-button" type="button" value="send">Send</button>
+                            <button class="btn secondary-button button contact-button" type="button"
+                                value="send">Send</button>
                         </form>
                     </div>
-               </div>
-           </div>
+                </div>
+            </div>
         </div>
     </section>
     <!--END CONTACT SECTION -->
@@ -281,9 +286,9 @@
         <p class="footer-title">get.rajan</p>
         <div class="footer-social">
             <a href="#" class="social-icon"><i class="fa fa-facebook"></i>
-            <a href="#" class="social-icon"><i class="fa fa-github"></i>
-            <a href="#" class="social-icon"><i class="fa fa-instagram"></i>
-            </a>
+                <a href="#" class="social-icon"><i class="fa fa-github"></i>
+                    <a href="#" class="social-icon"><i class="fa fa-instagram"></i>
+                    </a>
         </div>
         <p id="copy-right">&#169;2020 all right reserved</p>
     </footer>
@@ -291,11 +296,15 @@
 
 
 
-    <!-- Custom Js -->
-    <script src="assets/js/main.js"></script>
+
     <!-- jquery -->
     <script src="assets/js/jquery-v3.5.1.js"></script>
-    <!-- Bootstrap css -->
+    <!-- Bootstrap js -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/scroll.js"></script>
 
 </html>

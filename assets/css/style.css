@@ -28,17 +28,13 @@
 }
 
 .active a{
-    background-color: blue;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font: normal bold 15px/2px var(--roboto);
+font: normal bold 15px/2px var(--roboto);
 }
 
 .nav-item a:hover{
-    background-color: blue;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* background-color: blue; */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
     background-clip: text;
     font: normal bold 15px/2px var(--roboto);
 }
@@ -63,12 +59,18 @@
     margin-left: 5%;
     transform: translateY(-10px);
 }
-
 .site-title h1{
     font-size: 5rem;
 }
 .site-title h4{
-    font-size: 1.5rem;
+    font-size: 25px;
+    font-family: var(--lobster);
+    padding-bottom: 5px;
+    /* padding-top: 5px; */
+}
+#and-sign{
+    font-family: var(--oswald);
+    font-weight: bold;
 }
 
 .banner-image > img{
@@ -89,6 +91,7 @@ letter-spacing: 12px;
 }
 .paragraph > p{
     padding: 0;
+    margin-bottom: 1rem;
 }
 /* end about styling */
 
@@ -147,14 +150,14 @@ h3.pr-skill{
     width: 80%;
 }
 .skills-image{
-    
+   margin-top: auto;
+   margin-bottom: auto;
 }
 .skill-image{
     border-radius: .5rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    padding-top: auto;
+    
 }
 /* End skills styling */
 
@@ -167,6 +170,7 @@ h3.pr-skill{
     border-radius: .5rem;
     margin: .5rem;
 }
+
 /* End work styling */
 
 /* start contact stlying */
